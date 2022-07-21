@@ -1,0 +1,60 @@
+/* 圆角设置 */
+.angle_content {
+	border-radius: 20rpx !important;
+}
+
+/* 水平方向padding */
+.px {
+	padding: 0 40rpx;
+}
+
+
+/* 上下padding */
+.py {
+	padding: 10rpx, 0;
+}
+
+/* 文本左侧padding */
+.text_pl {
+	margin-left: 10rpx;
+}
+
+/* content部分 */
+.content {
+	margin: 60rpx 0 0;
+}
+
+
+
+/* 全局灰色 */
+.gray_color {
+	color: #949699;
+}
+
+/* flex布局 */
+.u-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 全局margin-left */
+.ml {
+	margin-left: 15rpx;
+}
+
+/* 全局margin-top */
+.mt {
+	margin-top: 20rpx;
+}
+
+.pb {
+	padding-bottom: 30rpx !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.uni-card {
+	border: 0 !important;
+}

@@ -1,0 +1,79 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2dc590",
+				"app-plus": {
+					"titleNView": false // 禁用原生导航栏
+				}
+
+			}
+		},
+		{
+			"path": "pages/teaGarden/teaGarden",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/equipment/equipment",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2dc590",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/images/home.png",
+				"selectedIconPath": "./static/images/home_selected.png"
+			}, {
+				"pagePath": "pages/teaGarden/teaGarden",
+				"text": "茶园管理",
+				"iconPath": "./static/images/zhiwu.png",
+				"selectedIconPath": "./static/images/zhiwu_selected.png"
+			},
+			{
+				"pagePath": "pages/equipment/equipment",
+				"text": "设备管理",
+				"iconPath": "static/images/shebeiguanli.png",
+				"selectedIconPath": "./static/images/shebeiguanli_selected.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/images/wode.png",
+				"selectedIconPath": "./static/images/wode_selected.png"
+			}
+		]
+	},
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
